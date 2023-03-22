@@ -9,3 +9,5 @@ The easiest way to run this script is inside **AWS CloudShell**. <br>
 3- Once upload the file to AWS Shell, use the following command to execute it and follow the instruction. <br>
 <br>
 ***PS /home/cloudshell-user> ./IMDSv2.ps1***
+
+![AWS IMDSv2 Script](https://github.com/SherifTalaat/AWS_EC2_IMDSv2/blob/main/screenshot1.png?raw=true)
