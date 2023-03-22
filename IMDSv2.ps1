@@ -47,7 +47,7 @@ elseif($InstancesWithIMDSv1.Count -gt 0)
 {
     "`n" 
     Write-Host $InstancesWithIMDSv1.Count.ToString() -ForegroundColor Yellow -NoNewline
-    Write-Host " EC2 Instances are currently using IMDSv1." -ForegroundColor Yellow
+    Write-Host " EC2 Instance(s) are currently using IMDSv1." -ForegroundColor Yellow
 
     "`n"
     $userInput = Read-Host "Would you like to covert all EC2 instance metadata to IMDSv2? (y/n)"
