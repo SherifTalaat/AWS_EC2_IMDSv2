@@ -1,6 +1,6 @@
 # AWS EC2 IMDSv2 Helper Script
 
-A simple PowerShell helper script based on [AWS PowerShell tools ](https://docs.aws.amazon.com/powershell/latest/userguide/pstools-getting-set-up-windows.html) to update all EC2 instances metadata, in single AWS account, to use IMDSv2 instead of IMDSv1.
+A simple PowerShell helper script based on [AWS PowerShell tools ](https://docs.aws.amazon.com/powershell/latest/userguide/pstools-getting-set-up-windows.html) to update all EC2 instances metadata option for using HTTP Token to required (IMDSv2) instead of optional (IMDSv1).
 
 ## How it works?
 1. Find active aws regions
