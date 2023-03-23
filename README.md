@@ -1,4 +1,4 @@
-# AWS EC2 IMDSv2
+# AWS EC2 IMDSv2 Helper Script
 
 A simple PowerShell helper script based on [AWS PowerShell tools ](https://docs.aws.amazon.com/powershell/latest/userguide/pstools-getting-set-up-windows.html) to update all EC2 instances metadata, in single AWS account, to use IMDSv2 instead of IMDSv1.
 
