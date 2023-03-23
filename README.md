@@ -9,6 +9,13 @@ A simple PowerShell helper script based on [AWS PowerShell tools ](https://docs.
    - EC2 instances using IMDSv2 appears in green
 3. If any EC2 instances are running IMDSv1, user will get an option to update all instances to IMDSv2. Otherwise, user will get "No action is needed message".
 
+**Disclaimer: This script doesn’t check for application dependencies on IMDSv1 or incompatibility with IMDSv2. This script is a helper script to update the instance metadata for EC2 instances using IMDSv1.**
+
+Please ensure that your instance makes no IMDSv1 calls before setting IMDSv2 to required. You can do this by going to **AWS Console -> EC2 -> Select Instance -> Actions -> Instance settings -> Modify instance metadata options -> View MetadataNoToekn for your instance.**
+![AWS IMDSv2 Script](https://github.com/SherifTalaat/AWS_EC2_IMDSv2/blob/main/screenshot2.png?raw=true)
+This will redirect you to the CloudWatch metric, where you can find calls to Instance metadata without using a token (IMDSv1).
+
+
 ## How to use?
 The easiest way to run this script is inside **AWS CloudShell**. <br>
 
