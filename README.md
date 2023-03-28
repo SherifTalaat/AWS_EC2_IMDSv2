@@ -17,7 +17,7 @@ This will redirect you to the CloudWatch metric, where you can find calls to Ins
 
 
 ## How to use?
-The easiest way to run this script is inside **AWS CloudShell**. <br>
+The easiest way to run this script is inside [AWS CloudShell](https://docs.aws.amazon.com/cloudshell/latest/userguide/working-with-cloudshell.html). <br>
 
 1- Once you open AWS CloudShell, convert to the shell mode to PowerShell using *pwsh* command. <br>
 2- Click **Actions ^**, then **Upload file**. <br>
